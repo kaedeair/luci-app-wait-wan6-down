@@ -1,0 +1,36 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: wait-wan6-down.js:64
+msgid ""
+"A Luci application that uses script to wait for wan6 down when ppp lcp "
+"terminated."
+msgstr ""
+
+#: wait-wan6-down.js:79
+msgid "Attempt Times"
+msgstr ""
+
+#: wait-wan6-down.js:71
+msgid "Configration"
+msgstr ""
+
+#: wait-wan6-down.js:21 wait-wan6-down.js:49
+msgid "Disable"
+msgstr ""
+
+#: wait-wan6-down.js:74
+msgid "Interval"
+msgstr ""
+
+#: wait-wan6-down.js:74
+msgid "Retry delay (seconds)"
+msgstr ""
+
+#: wait-wan6-down.js:43
+msgid "Toggle switch"
+msgstr ""
+
+#: wait-wan6-down.js:63
+msgid "Wait Wan6 Down"
+msgstr ""

@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: luci-app-wait-wan 6-down\n"
+"PO-Revision-Date: 2025-02-07 19:57+0800\n"
+"Last-Translator:  <kaedeair@outlook.com>\n"
+"Language-Team: Chinese\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wait-wan6-down.js:64
+msgid ""
+"A Luci application that uses script to wait for wan6 down when ppp lcp "
+"terminated."
+msgstr "一个当ppp lcp终止时使用脚本等待wan6关闭的Luci应用"
+
+#: wait-wan6-down.js:79
+msgid "Attempt Times"
+msgstr "尝试次数"
+
+#: wait-wan6-down.js:71
+msgid "Configration"
+msgstr "配置"
+
+#: wait-wan6-down.js:21 wait-wan6-down.js:49
+msgid "Disable"
+msgstr "禁用"
+
+#: wait-wan6-down.js:74
+msgid "Interval"
+msgstr "间隔"
+
+#: wait-wan6-down.js:74
+msgid "Retry delay (seconds)"
+msgstr "重试延迟(秒)"
+
+#: wait-wan6-down.js:43
+msgid "Toggle switch"
+msgstr "开关"
+
+#: wait-wan6-down.js:63
+msgid "Wait Wan6 Down"
+msgstr "等待Wan6关闭"

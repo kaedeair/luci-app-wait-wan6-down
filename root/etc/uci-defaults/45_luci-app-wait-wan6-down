@@ -1,0 +1,13 @@
+#!/bin/sh
+
+uci -q batch <<-EOF >/dev/null
+	delete ucitrack.@wait-wan6-down[-1]
+	add ucitrack wait-wan6-down
+	set ucitrack.@wait-wan6-down[-1].init=wait-wan6-down
+	commit ucitrack
+EOF
+
+mkdir -p /etc/ppp/ip-down.d
+
+rm -f /tmp/luci-indexcache
+exit 0

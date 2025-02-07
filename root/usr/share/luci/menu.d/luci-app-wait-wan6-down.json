@@ -1,0 +1,18 @@
+{
+  "admin/network/wait-wan6-down": {
+    "title": "Wait Wan6 Down",
+    "order": 60,
+    "action": {
+      "type": "view",
+      "path": "wait-wan6-down"
+    },
+    "depends": {
+      "acl": [
+        "luci-app-wait-wan6-down"
+      ],
+      "uci": {
+        "wait-wan6-down": true
+      }
+    }
+  }
+}

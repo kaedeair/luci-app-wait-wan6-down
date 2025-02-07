@@ -1,0 +1,3 @@
+config wait-wan6-down
+	option interval '1'
+	option times '10'

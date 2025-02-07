@@ -1,0 +1,23 @@
+{
+  "luci-app-wait-wan6-down": {
+    "description": "Grant access for luci-app-wait-wan6-down",
+    "read": {
+      "uci": [
+        "luci-app-wait-wan6-down"
+      ]
+    },
+    "write": {
+      "file": {
+        "/bin/ln -s /usr/share/wait-wan6-down/wait_wan6_down.sh /etc/ppp/ip-down.d/check_wan6_down.sh": [
+          "exec"
+        ],
+        "/etc/ppp/ip-down.d/check_wan6_down.sh": [
+          "write"
+        ]
+      },
+      "uci": [
+        "luci-app-wait-wan6-down"
+      ]
+    }
+  }
+}
